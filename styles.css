@@ -1,0 +1,110 @@
+body{
+    background-color: hsl(185, 41%, 84%);
+    font-family: 'Space Mono', monospace;;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    font-weight: 900;
+    color: hsl(172, 67%, 45%);
+    font-size: 2rem;
+}
+/* Tip Calculator */
+#tip-calculator{
+    width: fit-content;
+    height: fit-content;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+
+/* Logo Image */
+.img-logo-container{
+    text-align: center;
+}
+/* .img-logo{
+    position: relative;
+    top: 80px;
+} */
+
+/* Container */
+
+.big-container{
+    padding: 20px;
+}
+.first-sub-container{
+    padding: 30px;
+
+}
+.second-sub-container{
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+/* Headings */
+.small-heading{
+    font-size: 10px;
+    font-weight: 900;
+    color: hsl(186, 14%, 43%);
+}
+.medium-heading{
+    font-size: 11px;
+    margin-bottom: 5px;
+    color: hsl(0, 0%, 100%);
+}
+
+/* Buttons */
+.percentage-btn{
+    width: 100%;
+    background-color: hsl(183, 100%, 15%);
+    margin: 5px 0;
+    color: hsl(0, 0%, 100%);
+}
+.custom-btn{
+    width: 100%;
+    height: 85%;
+    background-color: hsl(189, 41%, 97%);
+    margin: 5px 0;
+    color: hsl(186, 14%, 43%);
+    font-size: 15px;
+    font-weight: 900;
+    text-align: right;
+    border-radius: 5px;
+    border: 1px solid hsl(189, 41%, 97%);
+}
+.reset-btn{
+    width: 100%;
+    background-color:hsl(172, 67%, 45%);
+    opacity: 0.3;
+    font-weight: 900;
+    margin-top: 100px;
+    color: hsl(183, 100%, 15%);
+}
+
+input{
+    font-size: 24px;
+}
+
+.form-control, .input-group-text{
+    background-color: hsl(189, 41%, 97%);
+    border: none;
+    text-align: right;
+}
+
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+    font-weight: 700;
+}
+
