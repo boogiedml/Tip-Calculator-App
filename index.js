@@ -11,8 +11,8 @@ let userBill = document.querySelector("#bill_input").addEventListener("input", (
 });
 
 
-// Custom Input
-let customBill = document.querySelector("#custom_input").addEventListener("input", (e) =>{
+// Custom Input Tip Percentage
+let customPercentage = document.querySelector("#custom_input").addEventListener("input", (e) =>{
     let customInputEntered = e.target.value
     console.log(customInputEntered);
 })
@@ -26,3 +26,10 @@ for(let i = 0; i < numOfButtons; i++){
         console.log(this.innerHTML)
     })
 }
+
+
+//Number of Customers
+let numberOfPeople = document.querySelector("#number-of-people-input").addEventListener("input", (e) => {
+    let numberOfPeopleEntered = e.target.value;
+    console.log(numberOfPeopleEntered);
+})
