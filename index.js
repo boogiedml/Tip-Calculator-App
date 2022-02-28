@@ -1,3 +1,12 @@
+let allButtons = document.querySelectorAll("button.percentage-btn")
+    for (let i = 0; i < allButtons.length; i++) {
+        allButtons[i].addEventListener("click", () => {
+            // console.log(allButtons[i]);
+            allButtons[i].style.opacity = 1;
+        })
+        
+    }
+
 
 document.querySelector("input").addEventListener("click", () => {
     document.querySelector(".reset-btn").style.opacity = 1;
@@ -7,16 +16,7 @@ document.querySelector("input").addEventListener("click", () => {
 let userBill = document.querySelector("#bill_input").addEventListener("input", (e) => {
     let userBillEntered = e.target.value;
     console.log(userBillEntered);
-
 });
-
-
-// Custom Input Tip Percentage
-let customPercentage = document.querySelector("#custom_input").addEventListener("input", (e) =>{
-    let customInputEntered = e.target.value
-    console.log(customInputEntered);
-})
-
 
 
 //Tip Percentage
@@ -27,9 +27,15 @@ for(let i = 0; i < numOfButtons; i++){
     })
 }
 
+// Custom Input Tip Percentage
+let customPercentage = document.querySelector("#custom_input").addEventListener("input", (e) => {
+    customPercentageEntered = e.target.value
+    console.log(customPercentageEntered);
+})
 
 //Number of Customers
 let numberOfPeople = document.querySelector("#number-of-people-input").addEventListener("input", (e) => {
     let numberOfPeopleEntered = e.target.value;
     console.log(numberOfPeopleEntered);
 })
+
