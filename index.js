@@ -1,10 +1,12 @@
 let screenOutput = document.getElementById("tip__output"); // get the text on the UI for the tip output
 let totalScreenOutput = document.getElementById("tip__total") ;// get the total screen output
+let numberOfpeopleInput = document.getElementById("number-of-people-input")
 let userBillEntered; //track all input entries
 let numberOfPeopleEntered; // get the number of people to share the bill
 let removeString; // remove string (percentage) from the Tip Percentage button
 let calcCustomValue; // evaluate the custom value
 let calcBtnPercent; // evaluate percent btn value
+let customInputEntered
 // console.log(screenOutput)
 // console.log(totalScreenOutput)
 
@@ -27,11 +29,13 @@ const numberOfPeople = document.querySelector("#number-of-people-input").addEven
 
 // Custom Input Tip Percentage
 let customPercentage = document.querySelector("#custom_input").addEventListener("input", (e) => {
-    let customInputEntered = e.target.value
+     customInputEntered = e.target.value
     console.log(customInputEntered);
     //manipulate output on screen from the percentage entered in custom entry
-    calcCustomValue = (customInputEntered/100) * userBillEntered;
+    calcCustomValue = (customInputEntered/100 )* userBillEntered;
     screenOutput.innerHTML = calcCustomValue
+    totalScreenOutput.innerHTML = (calcCustomValue * numberOfPeopleEntered);
+    console.log(totalScreenOutput)
 })
 
 
@@ -51,10 +55,19 @@ for (let i = 0; i < numOfButtons; i++) {
           // set the output to the evaluated value
         screenOutput.innerHTML = calcBtnPercent
         // set the value of the total screen to the evaluated value
-        totalScreenOutput.innerHTML = (calcBtnPercent *numberOfPeopleEntered);
+        totalScreenOutput.innerHTML = (calcBtnPercent * numberOfPeopleEntered);
         console.log(totalScreenOutput);
     })
 }
 }
 accessTipPercent()
 
+function validate() {
+    // if(document.getElementById("bill_input").value.trim() = "" && document.getElementById("number-of-people-input").value.trim() != "" ) {
+// show alert saying required input fields.
+alert("Please fill the above fields")
+} 
+
+function inputNotice() {
+    alert("Fill in the Bill input and Number of people first");
+  }
