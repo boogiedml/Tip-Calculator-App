@@ -20,7 +20,6 @@
     <img class="img-logo" src="images/logo.svg" alt="logo">
   </header>
   <main role="main">
-    <form action="#">
       <section id="tip-calculator"" class="container">
         <div class="row big-container">
           <div class="col-sm-12 col-md-6 first-sub-container">
@@ -30,6 +29,13 @@
                 <span class="input-group-text" id="basic-addon1"><img src="images/icon-dollar.svg" alt=""></span>
                 <input type="number" id="bill_input" class="form-control" placeholder="0" aria-label="number" aria-describedby="basic-addon1">
               </div>     
+            </div>
+            <div>
+              <label for="number-of-people" class="small-heading">Number of People</label><br>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1"><img src="images/icon-person.svg" alt=""></span>
+                <input type="number" id="number-of-people-input" class="form-control numop-input" placeholder="0" aria-label="number" aria-describedby="basic-addon1">
+              </div>
             </div>
               <label for="Select-Tip" class="small-heading">Select Tip %</label>
               <div class="row row-cols-2">
@@ -52,13 +58,7 @@
                   <input type="number" placeholder="Custom" id="custom_input" class="custom-btn b_custom" aria-label="Custom" aria-describedby="basic-addon1">
                 </div>
               </div>
-              <div>
-                <label for="number-of-people" class="small-heading">Number of People</label><br>
-                <div class="input-group mb-3">
-                  <span class="input-group-text" id="basic-addon1"><img src="images/icon-person.svg" alt=""></span>
-                  <input type="number" id="number-of-people-input" class="form-control numop-input" placeholder="0" aria-label="number" aria-describedby="basic-addon1">
-                </div>
-              </div>
+             
           </div>
              
           <div class="col-sm-12 col-md-6 second-sub-container">
@@ -81,7 +81,7 @@
               </div>
             </div>
             <div>
-              <button type="button" id="reset-btn" class="btn reset-btn" onclick="reset();resetAll();">RESET</button>
+              <button type="reset" id="reset-btn-result reset-btn-entries" class="btn reset-btn" onclick="resetAll();">RESET</button>
             </div>
           </div>
         
@@ -94,7 +94,7 @@
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Sherifdeen Ishola</a>.
+    Coded by <a href="https://www.google.com/search?q=Sherifdeen+Ishola&oq=Sherifdeen+Ishola&aqs=chrome..69i57j69i61l3.7652j0j7&sourceid=chrome&ie=UTF-8">Sherifdeen Ishola</a>.
   </div>
 
 <!-- JQuery CDN -->
