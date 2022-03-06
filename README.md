@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://boogiedml.github.io/Tip-Calculator-App/](https://boogiedml.github.io/Tip-Calculator-App/)
 
 
 ## My process
