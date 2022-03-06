@@ -17,9 +17,12 @@
 </head>
 <body>
   <header class="img-logo-container">
-    <img class="img-logo" src="images/logo.svg" alt="logo">
+    <h1>
+      <img class="img-logo" src="images/logo.svg" alt="logo">
+    </h1>
+    
   </header>
-  <main role="main" class="main-container">
+  <main>
       <section id="tip-calculator" class="container">
         <div class="row big-container">
           <div class="col-sm-12 col-md-6 first-sub-container">
@@ -27,35 +30,35 @@
               <label for="bill_input" class="small-heading">Bill</label><br>
               <div class="input-group mb-3">
                 <span class="input-group-text"><img src="images/icon-dollar.svg" alt=""></span>
-                <input type="number" id="bill_input" class="form-control" placeholder="0" aria-label="number" aria-describedby="basic-addon1">
+                <input type="number" id="bill_input" class="form-control" placeholder="0" aria-label="number">
               </div>     
             </div>
             <div>
               <label for="number-of-people-input" class="small-heading">Number of People</label><br>
               <div class="input-group mb-3">
                 <span class="input-group-text"><img src="images/icon-person.svg" alt=""></span>
-                <input type="number" id="number-of-people-input" class="form-control numop-input" placeholder="0" aria-label="number" aria-describedby="basic-addon1">
+                <input type="number" id="number-of-people-input" class="form-control numop-input" placeholder="0" aria-label="number">
               </div>
             </div>
-              <label for="Select-Tip" class="small-heading">Select Tip %</label>
+              <label for="custom_input" class="small-heading">Select Tip %</label>
               <div class="row row-cols-2">
-                <div class="col-sm-6 col-md-4" id="Select-Tip">
+                <div class="col-sm-6 col-md-4">
                   <button type="button" class="btn percentage-btn per_btn">5%</button>
                 </div>
-                <div class="col-sm-6 col-md-4" id="Select-Tip">
+                <div class="col-sm-6 col-md-4">
                   <button type="button" class="btn percentage-btn per_btn">10%</button>
                 </div>
-                <div class="col-sm-6 col-md-4" id="Select-Tip">
+                <div class="col-sm-6 col-md-4">
                   <button type="button" class="btn percentage-btn per_btn">15%</button>
                 </div>
-                <div class="col-sm-6 col-md-4" id="Select-Tip">
+                <div class="col-sm-6 col-md-4">
                   <button type="button" class="btn percentage-btn per_btn">25%</button>
                 </div>
-                <div class="col-sm-6 col-md-4" id="Select-Tip">
+                <div class="col-sm-6 col-md-4">
                   <button type="button" class="btn percentage-btn per_btn">50%</button>
                 </div>
-                <div class="col-sm-6 col-md-4" id="Select-Tip">
-                  <input type="number" placeholder="Custom" id="custom_input" class="custom-btn b_custom" aria-label="Custom" aria-describedby="basic-addon1">
+                <div class="col-sm-6 col-md-4">
+                  <input type="number" placeholder="Custom" id="custom_input" class="custom-btn b_custom" aria-label="Custom">
                 </div>
               </div>
              
@@ -68,7 +71,7 @@
                 <p class="small-heading">/ person</p>
               </div>
               <div class="col big-numbers">
-                <h3 id="tip__output">$0.00</h3>
+                <h2 id="tip__output">$0.00</h2>
               </div>
             </div>
             <div class="row">
@@ -77,7 +80,7 @@
                 <p class="small-heading">/ person</p>
               </div>
               <div class="col big-numbers">
-                <h3 id="tip__total">$0.00</h3>
+                <h2 id="tip__total">$0.00</h2>
               </div>
             </div>
             <div>
@@ -92,10 +95,10 @@
   
 
   
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://www.google.com/search?q=Sherifdeen+Ishola&oq=Sherifdeen+Ishola&aqs=chrome..69i57j69i61l3.7652j0j7&sourceid=chrome&ie=UTF-8">Sherifdeen Ishola</a>.
-  </div>
+  </footer>
 
 
 <!-- Bootstrap CDN -->
