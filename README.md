@@ -74,5 +74,5 @@ JAVASCRIPT
 
 
 ## Acknowledgments
-I really appretiate Mbk15 he really helped on this project
+I really appretiate Mbk15 he really helped on this project. Thank You
 
