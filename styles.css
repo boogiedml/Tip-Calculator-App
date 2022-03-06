@@ -15,6 +15,10 @@ h3{
     color: hsl(172, 67%, 45%);
     font-size: 2rem;
 }
+
+input{
+    font-size: 24px;
+}
 /* Tip Calculator */
 #tip-calculator{
     width: fit-content;
@@ -27,7 +31,7 @@ h3{
 /* Logo Image */
 .img-logo-container{
     text-align: center;
-    padding: 10% 0;
+    padding: 50px 0;
 }
 
 /* Container */
@@ -85,10 +89,6 @@ h3{
     color: hsl(183, 100%, 15%);
 }
 
-input{
-    font-size: 24px;
-}
-
 .form-control, .input-group-text{
     background-color: hsl(189, 41%, 97%);
     border: none;
@@ -99,7 +99,7 @@ input{
 .attribution {
     font-size: 11px; 
     text-align: center; 
-    padding: 10% 0;
+    padding: 100px 0 10px;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 

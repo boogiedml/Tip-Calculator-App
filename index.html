@@ -19,42 +19,42 @@
   <header class="img-logo-container">
     <img class="img-logo" src="images/logo.svg" alt="logo">
   </header>
-  <main role="main">
-      <section id="tip-calculator"" class="container">
+  <main role="main" class="main-container">
+      <section id="tip-calculator" class="container">
         <div class="row big-container">
           <div class="col-sm-12 col-md-6 first-sub-container">
             <div class="bill">
-              <label for="bill" class="small-heading">Bill</label><br>
+              <label for="bill_input" class="small-heading">Bill</label><br>
               <div class="input-group mb-3">
-                <span class="input-group-text" id="basic-addon1"><img src="images/icon-dollar.svg" alt=""></span>
+                <span class="input-group-text"><img src="images/icon-dollar.svg" alt=""></span>
                 <input type="number" id="bill_input" class="form-control" placeholder="0" aria-label="number" aria-describedby="basic-addon1">
               </div>     
             </div>
             <div>
-              <label for="number-of-people" class="small-heading">Number of People</label><br>
+              <label for="number-of-people-input" class="small-heading">Number of People</label><br>
               <div class="input-group mb-3">
-                <span class="input-group-text" id="basic-addon1"><img src="images/icon-person.svg" alt=""></span>
+                <span class="input-group-text"><img src="images/icon-person.svg" alt=""></span>
                 <input type="number" id="number-of-people-input" class="form-control numop-input" placeholder="0" aria-label="number" aria-describedby="basic-addon1">
               </div>
             </div>
               <label for="Select-Tip" class="small-heading">Select Tip %</label>
               <div class="row row-cols-2">
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6 col-md-4" id="Select-Tip">
                   <button type="button" class="btn percentage-btn per_btn">5%</button>
                 </div>
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6 col-md-4" id="Select-Tip">
                   <button type="button" class="btn percentage-btn per_btn">10%</button>
                 </div>
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6 col-md-4" id="Select-Tip">
                   <button type="button" class="btn percentage-btn per_btn">15%</button>
                 </div>
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6 col-md-4" id="Select-Tip">
                   <button type="button" class="btn percentage-btn per_btn">25%</button>
                 </div>
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6 col-md-4" id="Select-Tip">
                   <button type="button" class="btn percentage-btn per_btn">50%</button>
                 </div>
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6 col-md-4" id="Select-Tip">
                   <input type="number" placeholder="Custom" id="custom_input" class="custom-btn b_custom" aria-label="Custom" aria-describedby="basic-addon1">
                 </div>
               </div>
@@ -81,7 +81,7 @@
               </div>
             </div>
             <div>
-              <button type="reset" id="reset-btn-result reset-btn-entries" class="btn reset-btn" onclick="resetAll();">RESET</button>
+              <button type="reset" class="btn reset-btn" onclick="resetAll();">RESET</button>
             </div>
           </div>
         
@@ -97,10 +97,7 @@
     Coded by <a href="https://www.google.com/search?q=Sherifdeen+Ishola&oq=Sherifdeen+Ishola&aqs=chrome..69i57j69i61l3.7652j0j7&sourceid=chrome&ie=UTF-8">Sherifdeen Ishola</a>.
   </div>
 
-<!-- JQuery CDN -->
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
-<!-- Font Awesome -->
-<script src="https://kit.fontawesome.com/953852d2bd.js" crossorigin="anonymous"></script>
+
 <!-- Bootstrap CDN -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script src="index.js"></script>
